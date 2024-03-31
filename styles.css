@@ -3,3 +3,15 @@ body {
   background: pink;
   text-align: center;
 }
+
+.about {
+  background: red;
+}
+
+.product {
+  background: green;
+}
+
+.contact {
+  background: blue;
+}
