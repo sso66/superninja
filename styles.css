@@ -5,13 +5,13 @@ body {
 }
 
 .about {
-  background: red;
+  background: lightgoldenrodyellow;
 }
 
 .product {
-  background: green;
+  background: lightgreen;
 }
 
 .contact {
-  background: blue;
+  background: lightblue;
 }
