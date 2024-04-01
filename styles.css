@@ -16,6 +16,9 @@ body {
   background: lightblue;
 }
 
+.game {
+  background: rgb(213, 104, 220);
+}
 /* custom styling for about page */
 .btn {
   width: 150px;
