@@ -48,7 +48,6 @@ function displayPlayAgain(display) {
 function generateRandomNumber(max) {
     const result = Math.floor(Math.random() * max) + 1;
     return result;
-
 }
 
 function processGuess() {
