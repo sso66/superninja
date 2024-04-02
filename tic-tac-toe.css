@@ -14,6 +14,7 @@ p {
   display: flex;
   flex-direction: column;
   align-items: center;
+  background: darkblue;
 }
 .row {
   display: flex;
@@ -28,6 +29,7 @@ p {
   font-size: 24px;
   text-align: center;
   cursor: pointer;
+  background: gold;
 }
 .cell:active {
   outline: none;
@@ -106,6 +108,7 @@ p {
 /* Main Container */
 #main {
   text-align: center;
+  background: silver;
 }
 
 /* Game Instruction Text */
