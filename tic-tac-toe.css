@@ -2,39 +2,52 @@ body {
   font-family: monospace;
   font-size: 1.1rem;
 }
+
 h1 {
-  color: gold;
   margin-bottom: -5px;
   background: darkblue;
+  color: gold;
 }
+
 p {
   margin-bottom: -10px;
 }
+
+/* Main Container */
+#main {
+  background: silver;
+  text-align: center;
+}
+
+/* Game User Interface */
 .ui {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: darkblue;
 }
+
+/* Board 3x3 Matrix Layout */
 .row {
   display: flex;
 }
+
+/* The Squares on the Board */
 .cell {
-  border: none;
   width: 80px;
   height: 80px;
   display: flex;
   align-items: center;
   justify-content: center;
+  border: 1px dotted gold;
   font-size: 24px;
   text-align: center;
   cursor: pointer;
-  border: 1px dotted gold;
 }
 .cell:active {
   outline: none;
 }
-/* 3*3 Grid */
+
+/* 3x3 Grid Borders */
 #b1 {
   border-bottom: 1px solid gray;
   border-right: 1px solid gray;
@@ -98,17 +111,11 @@ p {
   cursor: pointer;
 }
 
-/* Player's turn space */
+/* Player's Turn Space */
 #print {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: darkblue;
   font-size: 20px;
-}
-
-/* Main Container */
-#main {
-  text-align: center;
-  background: silver;
 }
 
 /* Game Instruction Text */

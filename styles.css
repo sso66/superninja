@@ -1,9 +1,14 @@
 body {
   margin: 0;
-  background: pink;
+  background: black;
   text-align: center;
+  color: white;
 }
 
+a {
+  background-color: snow;
+  padding: 1px 1px 1px 1px;
+}
 .about {
   background: lightgoldenrodyellow;
 }
