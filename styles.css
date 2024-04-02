@@ -5,10 +5,12 @@ body {
   color: white;
 }
 
-a {
-  background-color: snow;
+nav {
+  background-color: gold;
   padding: 1px 1px 1px 1px;
+  color: black;
 }
+
 .about {
   background: lightgoldenrodyellow;
 }
