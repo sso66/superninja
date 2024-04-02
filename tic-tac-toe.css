@@ -47,7 +47,7 @@ p {
   outline: none;
 }
 
-/* 3x3 Grid Borders */
+/* 3x3 Boxes in a Square */
 #b1 {
   border-bottom: 1px solid gray;
   border-right: 1px solid gray;
