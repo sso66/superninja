@@ -23,10 +23,11 @@ nav {
   background: lightblue;
 }
 
-.game {
-  background: lightgray;
-}
 /* custom styling for about page */
+.phrase-o-matic {
+  background: lightseagreen;
+}
+
 .btn {
   width: 150px;
   height: 50px;
