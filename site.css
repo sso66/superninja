@@ -1,0 +1,27 @@
+@import './reset.css';
+
+body {
+  margin: 0;
+  background: black;
+  text-align: center;
+  line-height: 1.25;
+  color: white;
+}
+
+nav {
+  background-color: gold;
+  padding: 1px 1px 1px 1px;
+  color: black;
+}
+
+.about {
+  background: lightgoldenrodyellow;
+}
+
+.product {
+  background: lightgreen;
+}
+
+.contact {
+  background: lightblue;
+}
