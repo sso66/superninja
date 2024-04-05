@@ -1,7 +1,4 @@
-.phrase-o-matic {
-  background: lightseagreen;
-}
-
+@import url(./site.css);
 .btn {
   width: 150px;
   height: 50px;

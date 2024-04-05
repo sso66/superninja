@@ -1,6 +1,8 @@
-@import './reset.css';
-
+/* @import './reset.css'; */
+@import url(./reset.css);
 body {
+  display: flex;
+  flex-flow: column;
   margin: 0;
   background: black;
   text-align: center;
@@ -14,17 +16,10 @@ nav {
   color: black;
 }
 
-.about {
-  background: lightgoldenrodyellow;
-}
-
-.product {
-  background: lightgreen;
-}
-
-.contact {
-  background: lightblue;
-}
-
 ul {
   background: tomato;
+}
+
+li {
+  list-style: none;
+}
