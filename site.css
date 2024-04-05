@@ -1,5 +1,6 @@
 @import url(./reset.css);
 @import url(./tic-tac-toe.css);
+@import url(./number-guessing.css);
 
 body {
   display: flex;
