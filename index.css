@@ -14,9 +14,9 @@ body {
 }
 
 nav {
-  background: white;
+  background: black;
   padding: 1px 1px 1px 1px;
-  color: black;
+  color: white;
 }
 
 ul {
