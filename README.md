@@ -15,3 +15,5 @@
 - [Reading and writihg JSON files in Node.js: A Complete Turorial](https://blog.logrocket.com/reading-writing-json-files-node-js-complete-tutorial/)
 
 - [Fuzzy Logic | Introduction](https://www.geeksforgeeks.org/fuzzy-logic-introduction/)
+
+- [Tailwind CSS](https://tailwindcss.com/)
