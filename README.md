@@ -1,5 +1,7 @@
 # superninja
 
+## Lessons Learn
+
 ## Resources
 
 - [JavaScript `if` Statements, Equility and Truthy/Falsy Explainec with Examples](https://www.freecodecamp.org/news/javascript-if-statement-equality-and-truthy-falsy/#:~:text=Basically%2C%20if%20the%20variable%20value,the%20if%20block%20is%20run.)
