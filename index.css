@@ -26,32 +26,3 @@ ul {
 li {
   list-style: none;
 }
-
-/* custom styling */
-.btn {
-  width: 150px;
-  height: 50px;
-  background-color: darkblue;
-  margin-top: 20px;
-  border-radius: 12px;
-  font-size: medium;
-  color: white;
-}
-
-.page-container {
-  width: 90%;
-  margin: 0 auto;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: large;
-}
-.page-container h2 {
-  color: green;
-}
-.page-container input {
-  font-size: x-large;
-}
-
-/* To be paired with JavaScript function */
-#play-again-container {
-  display: none;
-}
