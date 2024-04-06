@@ -29,6 +29,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: lemonchiffon;
   border: 1px dotted gold;
   font-size: 24px;
   text-align: center;
@@ -114,4 +115,9 @@ main {
   border: 1px solid snow;
   /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
   /* color: darkblue; */
+}
+
+.print {
+  background: tomato;
+  font-family: monospace;
 }
