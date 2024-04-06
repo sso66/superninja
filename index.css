@@ -14,13 +14,14 @@ body {
 }
 
 nav {
-  background-color: white
+  background: white;
   padding: 1px 1px 1px 1px;
   color: black;
 }
 
 ul {
-  background: orange;
+  background: white
+  color: black;
 }
 
 li {
