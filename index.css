@@ -6,44 +6,37 @@
 body {
   display: flex;
   flex-flow: column;
-  margin: 0;
   text-align: center;
-  line-height: 1.25;
 }
 
 header {
   background: gold;
-  border: 1px dotted darkblue;
+  border: 1px solid blue;
 }
 
 nav {
   background: white;
-  padding: 1px 1px 1px 1px;
+  border: 1px solid green;
   color: black;
 }
 
 main {
-  background: lightgray;
-  margin: 1px 1px 1px 1px;
-  border: 2px solid red;
-  padding: 1px 1px 1px 1px;
+  background: white;
+  border: 1px solid red;
 }
 
 aside {
   background: gold;
-  border: 1px dotted darkblue;
+  border: 1px dotted blue;
 }
 
-main {
-  background: litegray;
+footer {
+  background: gold;
+  border: 1px dotted blue;
 }
 
 ul {
   background-color: black;
+  font-size: 0.8rem;
   color: white;
-}
-
-li {
-  border: 1px dotted gold;
-  list-style: none;
 }
