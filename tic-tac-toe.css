@@ -19,7 +19,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: white;
   border: 1px dotted gold;
   font-size: 24px;
   text-align: center;
@@ -96,7 +96,6 @@
 #print {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: darkblue;
-  font-size: 20px;
 }
 
 /* Game Instruction Text */
@@ -107,6 +106,7 @@
 }
 
 .print {
-  background: tomato;
+  background: white;
   font-family: monospace;
+  font-size: 0.9rem;
 }

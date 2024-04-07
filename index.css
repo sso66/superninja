@@ -10,18 +10,21 @@ body {
   background: black;
   text-align: center;
   line-height: 1.25;
-  color: white;
+  /* color: white; */
+}
+
+main {
+  background: lightgray;
 }
 
 nav {
   background: white;
   padding: 1px 1px 1px 1px;
-  color: black;
+  /* color: black; */
 }
 
 ul {
   background: white;
-  color: black;
 }
 
 li {
