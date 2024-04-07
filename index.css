@@ -3,6 +3,10 @@
 @import url(./number-guessing.css);
 @import url(./tic-tac-toe.css);
 
+html {
+  border: 1px solid blue;
+}
+
 body {
   display: flex;
   flex-flow: column;
@@ -11,28 +15,23 @@ body {
 
 header {
   background: gold;
-  border: 1px solid blue;
 }
 
 nav {
   background: white;
-  border: 1px solid green;
   color: black;
 }
 
 main {
   background: white;
-  border: 1px solid red;
 }
 
 aside {
   background: gold;
-  border: 1px dotted blue;
 }
 
 footer {
   background: gold;
-  border: 1px dotted blue;
 }
 
 ul {
