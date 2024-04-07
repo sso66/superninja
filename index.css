@@ -23,11 +23,8 @@ nav {
   /* color: black; */
 }
 
-ul {
-  background: black;
-}
-
 li {
+  background: black;
   border: 1px dotted gold;
   color: white;
   list-style: none;
