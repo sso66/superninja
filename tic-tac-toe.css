@@ -1,15 +1,5 @@
 @import url(/index.css);
 
-p {
-  margin-bottom: -20px;
-}
-
-/* Main Container */
-main {
-  background: silver;
-  text-align: center;
-}
-
 /* Game User Interface */
 .ui {
   display: flex;
@@ -29,7 +19,7 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: lemonchiffon;
+  background-color: black;
   border: 1px dotted gold;
   font-size: 24px;
   text-align: center;

@@ -1,13 +1,18 @@
 @import url(/index.css);
 
 .btn {
-  width: 150px;
-  height: 50px;
-  background-color: lightgray;
+  box-sizing: border-box;
+  width: 95px;
+  height: 40px;
+  border: 1px solid darkblue;
   margin-top: 20px;
-  border-radius: 12px;
-  font-size: medium;
-  color: white;
+  margin-left: auto;
+  border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: whitesmoke;
+  color: darkblue;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 .page-container {
