@@ -4,7 +4,7 @@
 @import url(./tic-tac-toe.css);
 
 html {
-  border: 1px solid blue;
+  border: 1px solid none;
 }
 
 body {
@@ -14,7 +14,8 @@ body {
 }
 
 header {
-  background: gold;
+  background: black;
+  color: white;
 }
 
 nav {
@@ -27,11 +28,13 @@ main {
 }
 
 aside {
-  background: gold;
+  background: black;
+  color: white;
 }
 
 footer {
-  background: gold;
+  background: black;
+  color: white;
 }
 
 ul {
