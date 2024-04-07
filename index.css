@@ -7,14 +7,12 @@ body {
   display: flex;
   flex-flow: column;
   margin: 0;
-/*   background: black; */
   text-align: center;
   line-height: 1.25;
-/*   color: white; */
 }
 
 main {
-/*   background: lightgray; */
+  background: none;
 }
 
 nav {
