@@ -16,9 +16,9 @@ main {
 }
 
 nav {
-/*   background: black; */
+  background: black;
   padding: 1px 1px 1px 1px;
-/*   color: white; */
+  color: white;
 }
 
 li {
