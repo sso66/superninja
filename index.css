@@ -11,18 +11,32 @@ body {
   line-height: 1.25;
 }
 
-nav {
-  background: black;
-  padding: 1px 1px 1px 1px;
-  color: white;
-}
-
 header {
   background: gold;
+  border: 1px dotted darkblue;
+}
+
+nav {
+  background: white;
+  padding: 1px 1px 1px 1px;
+  color: black;
 }
 
 main {
-  background: litegray;
+  background: lightgray;
+  margin: 1px 1px 1px 1px;
+  border: 2px solid red;
+  padding: 1px 1px 1px 1px;
+}
+
+aside {
+  background: gold;
+  border: 1px dotted darkblue;
+}
+
+footer {
+  background: gold;
+  border: 1px dotted darkblue;
 }
 
 ul {
@@ -31,6 +45,6 @@ ul {
 }
 
 li {
-  border: 1px solid white;
+  border: 1px dotted gold;
   list-style: none;
 }
