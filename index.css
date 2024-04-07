@@ -18,8 +18,8 @@ header {
 }
 
 nav {
-  background: white;
-  color: black;
+  background: inherit;
+  color: inherit;
 }
 
 main {
