@@ -25,9 +25,9 @@ nav {
 
 ul {
   background: white;
+  border: 1px solid black;
 }
 
 li {
-  border: 1px solid black;
   list-style: none;
 }
