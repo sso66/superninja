@@ -24,8 +24,6 @@ nav {
 }
 
 li {
-  background: black;
   border: 1px dotted gold;
-  color: white;
   list-style: none;
 }
