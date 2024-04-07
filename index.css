@@ -18,8 +18,7 @@ nav {
 }
 
 header {
-  background: grey;
-  color: white;
+  background: gold;
 }
 
 main {
@@ -30,6 +29,7 @@ ul {
   background-color: black;
   color: white;
 }
+
 li {
   border: 1px solid white;
   list-style: none;
