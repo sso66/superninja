@@ -11,17 +11,26 @@ body {
   line-height: 1.25;
 }
 
-main {
-  background: none;
-}
-
 nav {
   background: black;
   padding: 1px 1px 1px 1px;
   color: white;
 }
 
+header {
+  background: grey;
+  color: white;
+}
+
+main {
+  background: none;
+}
+
+ul {
+  background-color: black;
+  color: white;
+}
 li {
-  border: 1px solid black;
+  border: 1px solid white;
   list-style: none;
 }
