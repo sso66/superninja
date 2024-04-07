@@ -34,9 +34,8 @@ aside {
   border: 1px dotted darkblue;
 }
 
-footer {
-  background: gold;
-  border: 1px dotted darkblue;
+main {
+  background: litegray;
 }
 
 ul {
