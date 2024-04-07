@@ -7,20 +7,20 @@ body {
   display: flex;
   flex-flow: column;
   margin: 0;
-  background: black;
+/*   background: black; */
   text-align: center;
   line-height: 1.25;
-  color: white;
+/*   color: white; */
 }
 
 main {
-  background: lightgray;
+/*   background: lightgray; */
 }
 
 nav {
-  background: black;
+/*   background: black; */
   padding: 1px 1px 1px 1px;
-  color: white;
+/*   color: white; */
 }
 
 li {
