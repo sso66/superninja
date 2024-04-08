@@ -23,14 +23,8 @@ nav {
   background: orange;
 }
 
-main {
-  background: white;
-}
-
-section {
-  background: lightgray;
-}
-
+main,
+section,
 article {
   background: gold;
 }
