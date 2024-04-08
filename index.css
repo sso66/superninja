@@ -22,10 +22,16 @@ nav {
   background: orange;
 }
 
-main,
-section,
-article {
+main {
   background: white;
+}
+
+section {
+  background: lightgray;
+}
+
+article {
+  background: beige;
 }
 
 aside,
