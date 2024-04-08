@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  background: orange;
+  text-align: center;
+}
+
+#root {
+  background-color: snow;
+  border: 1px solid darkblue;
+  font-family: monospace;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
