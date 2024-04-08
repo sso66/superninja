@@ -1,3 +1,5 @@
+@import url(index.css);
+
 #root {
   background-color: snow;
   border: 1px solid darkblue;
