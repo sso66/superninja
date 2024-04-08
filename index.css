@@ -37,6 +37,7 @@ article {
 
 aside,
 footer {
+  display: none;
   background: black;
   border: 1px dotted gold;
   color: white;
