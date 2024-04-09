@@ -1,0 +1,18 @@
+@import url(index.css);
+
+:root {
+  --bgColor: #ffffff;
+  --textColor: #000000;
+}
+
+body {
+  background-color: var(--bgColor);
+  color: var(--textColor);
+  text-align: center;
+  font-size: 24px;
+  padding: 20px;
+}
+
+.color-picker {
+  margin-top: 20px;
+}
