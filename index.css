@@ -37,6 +37,7 @@ article {
 
 aside,
 footer {
+  display: none;
   background: black;
   border: 1px dotted gold;
   color: white;
@@ -46,4 +47,7 @@ ul {
   background-color: black;
   font-size: 0.8rem;
   color: white;
+}
+li {
+  border: 1px solid lightgray;
 }
