@@ -45,6 +45,7 @@ footer {
 
 ul {
   background-color: black;
+  border: 1px solid lightgray;
   font-size: 0.8rem;
   color: white;
 }
