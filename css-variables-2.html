@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Variables</title>
+    <style>
+      :root {
+        --primary-color: blue;
+        --secondary-color: white;
+      }
+      body {
+        background-color: var(--primary-color);
+        --primary-color: green;
+      }
+
+      h1 {
+        color: var(--secondary-color);
+      }
+      h2 {
+        border-bottom: 2px solid var(--primary-color);
+      }
+      .container {
+        color: var(--primary-color);
+        font-size: 24px;
+        font-weight: bold;
+        background-color: var(--secondary-color);
+        padding: 30px;
+      }
+      button {
+        background-color: var(--secondary-color);
+        color: var(--primary-color);
+        border: 1px solid var(--primary-color);
+        font-weight: bold;
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Overriding CSS Variables 2nd Take</h1>
+    <div class="container">
+      <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed.</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+        tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+      <p>
+        <button>Yes</button>
+        <button>No</button>
+      </p>
+    </div>
+  </body>
+</html>
+Here is the res

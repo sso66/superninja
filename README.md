@@ -17,3 +17,5 @@
 - [Fuzzy Logic | Introduction](https://www.geeksforgeeks.org/fuzzy-logic-introduction/)
 
 - [Tailwind CSS](https://tailwindcss.com/)
+
+- [How to use CSS Variables Like a Pro](https://blog.logrocket.com/how-to-use-css-variables-like-a-pro/)

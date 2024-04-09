@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Variables 3rd Take</title>
+    <style>
+      :root {
+        --primary-color: blue;
+        --font-size: 24px;
+        --font-weight: 800;
+      }
+      body {
+        border: 1px solid var(--primary-color);
+      }
+      div {
+        font-size: var(--font-size);
+        font-weight: var(--font-weight);
+      }
+      p {
+        font-size: var(--font-size);
+        font-weight: var(--font-weight);
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>Example of using CSS variables for font:</h1>
+    <div>
+      Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt
+      ut labore et dolor.
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+      veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+      commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
+      velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+      cupidatat non proident.
+    </p>
+  </body>
+</html>
