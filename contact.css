@@ -1,0 +1,34 @@
+/* custom styling */
+form {
+  border: 1px solid darkblue;
+}
+
+fieldset {
+  border: 1px solid darkblue;
+}
+
+legend {
+  border: 1px solid darkblue;
+}
+
+label {
+  border: 1px solid darkblue;
+}
+
+input {
+  border: 1px solid darkblue;
+}
+
+a {
+  border: 1px solid darkblue;
+}
+
+/* set input focus highlights */
+input:focus {
+  background: lime;
+}
+
+/* set hyperlink focus highlights */
+a:focus {
+  background: aqua;
+}

@@ -3,6 +3,7 @@
 /* @import url(number-guessing.css); */
 /* @import url(tic-tac-toe.css); */
 /* @import url(boilerplate.css); */
+@import url(contact.css);
 
 html {
   border: 1px solid none;
@@ -12,6 +13,7 @@ body {
   display: flex;
   flex-flow: column;
   text-align: center;
+  color: black;
 }
 
 header {
@@ -48,6 +50,7 @@ ul {
   font-size: 0.8rem;
   color: white;
 }
+
 li {
   border: 1px solid lightgray;
 }
