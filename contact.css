@@ -1,6 +1,10 @@
 @import url(index.css);
 
 /* custom styling */
+.contact {
+  background: snow;
+}
+
 form {
   border: 1px solid darkblue;
 }
