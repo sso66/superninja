@@ -26,7 +26,7 @@ input {
 }
 
 a {
-  border: 1px solid darkblue;
+  border: 1px solid none;
 }
 
 /* set input focus highlights */
@@ -43,6 +43,7 @@ a:focus {
   color: blue;
   font-weight: bold;
 }
+
 a:link {
   color: red;
 }
