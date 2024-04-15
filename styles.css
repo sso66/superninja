@@ -1,5 +1,169 @@
 body {
   margin: 0;
-  background: pink;
+  background: snow;
+  /* text-align: center; */
+}
+
+main {
+  /* display: none; */
+  margin-top: 180px;
+}
+
+h4 {
+  /* display: none; */
+}
+
+/* Highlighting the current focus */
+/* set input focus highlights */
+form {
+  /* display: none; */
+}
+
+input:focus {
+  background: lime;
+}
+
+/* set hyperlink focus highlights */
+a:focus {
+  background: aqua;
+}
+
+/* Styling hyperlinks by status */
+ol {
+  /* display: none; */
+}
+a {
+  color: blue;
+  font-weight: bold;
+}
+a:link {
+  color: red; /* history status */
+}
+
+a:visited {
+  color: gray; /* history status */
+}
+
+a:hover {
+  color: green; /* interactive */
+}
+
+a:active {
+  color: orange; /* interactive */
+}
+
+/* Reacting to interface events */
+/* set divs size */
+section {
+  display: block;
+}
+
+#div-1,
+#div-2 {
+  width: 150px;
+  height: 50px;
+}
+
+/* set div-1 background colors */
+#div-1 {
+  background-color: blue;
+}
+#div-1:hover {
+  background-color: red;
+}
+
+/* set div-2 background images, positon and colors */
+#div-2 {
+  background: url('react.svg') 0px 0px aqua;
+}
+#div-2:hover {
+  background: url('react.svg') 0px -50px lime;
+}
+
+/* Interacting with CSS buttons */
+/* set button menu position */
+dl#menu-btn {
+  position: absolute;
+  top: 20px;
+  left: 10px;
+  width: 200px;
+}
+
+/* set general button styles */
+dt.btn {
+  margin-bottom: 5px;
   text-align: center;
 }
+
+/* set general anchor styles - fill the container */
+dt.btn a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* MouseOut state (default) */
+dt.btn a {
+  background: blue;
+  border: 5px outset blue;
+}
+
+/* MouseOver state (hover) */
+dt.btn a:hover {
+  background: red;
+  border: 5px outset red;
+}
+
+/* MouseDown state (hover) */
+dt.btn a:active {
+  background: green;
+  border: 5px outset green;
+}
+
+/* Moving within the document */
+/* set button menu position */
+dl#menu-tab {
+  position: absolute;
+  top: 0px;
+  left: 10px;
+}
+
+/* set general button styles */
+dt.tab {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  text-align: center;
+}
+
+/* set general anchor styles - fill the container */
+dt.tab a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+}
+
+/* MouseOut state (default) */
+dt.tab a {
+  background: blue;
+  border: 5px outset blue;
+}
+
+/* MouseOver state (hover) */
+dt.tab a:hover {
+  background: red;
+  border: 5px outset red;
+  padding-top: 20px;
+}
+
+/* MouseDown state (hover) */
+dt.tab a:active {
+  background: green;
+  border: 5px outset green;
+  padding-top: 20px;
+}
+
+/* Hiding and revealing components */
