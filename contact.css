@@ -38,3 +38,23 @@ input:focus {
 a:focus {
   background: aqua;
 }
+
+#top {
+  color: blue;
+  font-weight: bold;
+}
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: gray;
+}
+
+a:hover {
+  color: green;
+}
+
+a:active {
+  color: orange;
+}
